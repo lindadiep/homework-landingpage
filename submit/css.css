@@ -1,5 +1,5 @@
 		header {
-			background-image:url("header_bg.jpg");
+			background-image:url("images/header_bg.jpg");
 			font-size:24px;
 			color:white;
 			padding-bottom:25%;
@@ -47,7 +47,7 @@
 
 		#testimonial {
 			font-size:18px;
-			background-image:url("testimonial_bg.jpg");
+			background-image:url("/images/testimonial_bg.jpg");
 			clear:both;
 			padding: 5% 30%;
 		}
@@ -77,6 +77,25 @@
 			padding:30px;
 		}
 		
+		.9font {
+			font-size: 9px;
+		}
+
+		.12font {
+			font-size: 12px;
+		}
+
+		.13font {
+			font-size: 13px;
+		}	
+
+		.20font {
+			font-size: 20px;
+		}	
+
+		.24font {
+			font-size: 24px;
+		}
 
 		.lightfont{
 			font-weight: 300;
