@@ -1,0 +1,131 @@
+		header {
+			background-image:url("header_bg.jpg");
+			font-size:24px;
+			color:white;
+			padding-bottom:25%;
+			
+		}
+
+		#benefits {
+			float:left;
+			width:100%;
+			background-color:#606161;
+		}	
+
+	
+		#benefits1 {
+			float:left;
+			width:50%;
+			background-color:#606161;
+			text-align:left;
+			font-size:13px;		
+		}
+
+		#benefits1 p {
+			padding:10px;
+		} 
+
+		ul {
+			padding:10px 0px 10px 20px;
+		}
+
+		ul li {
+			padding:2px;
+		}
+
+		#benefits2 {
+			float:left;
+			width:50%;
+			background-color:#606161;
+			text-align:center;
+			font-size:13px;
+		}
+	
+		#benefits2 p {
+			padding:40px;
+		}
+
+		#testimonial {
+			font-size:18px;
+			background-image:url("testimonial_bg.jpg");
+			clear:both;
+			padding: 5% 30%;
+		}
+	
+
+
+		#signup {
+			background-color:#f9e42e;
+			color:white;
+			padding: 20px;
+		}
+
+
+		footer {
+			background-color:#121212;
+		}
+
+		
+		a {
+			font-size:14px;
+			text-decoration:none;
+			border-radius:5px;
+			padding:5px 30px;
+		}
+
+		p {
+			padding:30px;
+		}
+		
+
+		.lightfont{
+			font-weight: 300;
+		}
+
+		.light_ital{
+			font-weight: 300;
+			font-style: italic;
+		}
+
+		.semibold {
+			font-weight: 600;
+		}
+
+		.extrabold {
+			
+			font-weight: 800;
+		}		
+
+		.whitefont {
+			color:white;
+		}
+
+		.bluefont {
+			color:#033048;
+		}		
+
+		.yellowfont {
+			color:#f9e42e;
+		}
+
+		
+		.alignleft {
+			text-align:left;
+
+		}
+	
+		.yellowbutton {
+			background-color:#f9e42e; 					
+		}
+
+		.bluebutton {
+			background-color:#033048;
+		}
+		
+				
+		body {
+     			font-size: 12px;     			
+     			font-family: 'Open Sans', sans-serif; 
+     			text-align:center;
+      			
+		}
