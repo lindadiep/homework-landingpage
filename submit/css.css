@@ -18,7 +18,8 @@
 			width:50%;
 			background-color:#606161;
 			text-align:left;
-			font-size:13px;		
+			font-size:13px;	
+			font-weight: 300;	
 		}
 
 		#benefits1 p {
@@ -51,8 +52,6 @@
 			clear:both;
 			padding: 5% 30%;
 		}
-	
-
 
 		#signup {
 			background-color:#f9e42e;
@@ -111,7 +110,6 @@
 		}
 
 		.extrabold {
-			
 			font-weight: 800;
 		}		
 
