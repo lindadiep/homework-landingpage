@@ -28,6 +28,8 @@
 
 		ul {
 			padding:10px 0px 10px 20px;
+			list-style-type: circle;
+			list-style-position: inside;
 		}
 
 		ul li {
@@ -48,9 +50,15 @@
 
 		#testimonial {
 			font-size:18px;
+			font-weight:600;
+			color:white;
 			background-image:url("images/testimonial_bg.jpg");
 			clear:both;
 			padding: 5% 30%;
+		}
+
+		#testimonial p {
+			padding:0%;
 		}
 
 		#signup {
@@ -62,6 +70,7 @@
 
 		footer {
 			background-color:#121212;
+			font-size:9px;
 		}
 
 		
@@ -76,23 +85,23 @@
 			padding:30px;
 		}
 		
-		.9font {
+		._9font {
 			font-size: 9px;
 		}
 
-		.12font {
+		._12font {
 			font-size: 12px;
 		}
 
-		.13font {
+		._13font {
 			font-size: 13px;
 		}	
 
-		.20font {
+		._20font {
 			font-size: 20px;
 		}	
 
-		.24font {
+		._24font {
 			font-size: 24px;
 		}
 
