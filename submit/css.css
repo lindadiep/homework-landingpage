@@ -47,7 +47,7 @@
 
 		#testimonial {
 			font-size:18px;
-			background-image:url("/images/testimonial_bg.jpg");
+			background-image:url("images/testimonial_bg.jpg");
 			clear:both;
 			padding: 5% 30%;
 		}
