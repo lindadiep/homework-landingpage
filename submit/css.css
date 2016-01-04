@@ -1,7 +1,7 @@
 		header {
 			background-image:url("images/header_bg.jpg");
 			background-repeat:no-repeat;
-    		background-size:cover;
+    			background-size:cover;
 			font-size:24px;
 			color:white;
 			padding-bottom:25%;
@@ -10,7 +10,7 @@
 		#benefits {
 			float:left;
 			width:100%;
-			color: #606161;
+			color:#606161;
 			background-color:#f0efef;
 		}	
 	
@@ -20,7 +20,7 @@
 			background-color:#f0efef;
 			text-align:left;
 			font-size:13px;	
-			font-weight: 300;	
+			font-weight:300;	
 		}
 
 		#benefits1 p {
@@ -29,8 +29,8 @@
 
 		ul {
 			padding:10px 20px 10px 20px;
-			list-style-type: disc;
-			list-style-position: inside;
+			list-style-type:disc;
+			list-style-position:inside;
 		}
 
 		ul li {
