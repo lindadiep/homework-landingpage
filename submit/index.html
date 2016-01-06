@@ -1,3 +1,14 @@
+<!-- 
+	From Joni: Overall Comments
+
+	Hi Linda!  I will be adding comments to your code in HTML comments like this one.
+
+	Overall, this is a fantastic submission.  There are some spacing issues in the header, but the rest of the 
+	page looks solid on the front end.  
+
+	Also, great job with indenting your HTML.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 	
@@ -15,14 +26,16 @@
 	<body>
 	
 		<header>
+			 <!-- Nice strategy with using the class names to define the look of these paragraphs -->
 			<p class="alignleft extrabold">Relaxr</p>
 			<p class="semibold">Get piece of mind with a single tap</p>
 			<p class="extrabold"><a href="#" class="yellowbutton bluefont">Get it Now</a></p>
 		</header>
 
 		<div id="benefits">
-			<div id="benefits1">
-				<p class="semibold _20font bluefont">Benefits</p>
+			<!-- Try to use more descriptive ID names instead of adding a 1 or a 2 to the end of the word.  More descriptive names help you figure out what a section is supposed to be later on (i.e. if you come back to this code in 6 months or a year) -->
+			<div id="benefits1"> 
+				<p class="semibold _20font bluefont">Benefits</p> <!-- This line as a paragraph is fine, but think about using one of the header tags (h1, h2, etc) instead here -->
 				<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
 			
 				<ul>
@@ -34,19 +47,22 @@
 			</div>
 
 			<div id="benefits2">
-				<p class="difffont"><span>Sign up</span> for Relaxr today and get the first 30 days <span>FREE!</span> Hurry, deal ends soon.</p>
+				<p class="difffont"><span>Sign up</span> for Relaxr today and get the first 30 days <span>FREE!</span> Hurry, deal ends soon.</p> <!-- Great use of the <span> tag here to help with the differences in styles -->
 				<div><a href="#" class="bluebutton whitefont 12font extrabold">Sign Up Now!</a></div>
 			</div>
 		</div>
 		
 		<div id="testimonial">
-			<p class="light_ital">"Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."</p><br/>- Amanda, Intuit			
+			<p class="light_ital">"Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."</p><br/>- Amanda, Intuit	
+			<!-- The <br> tag above is not necessary.  If you need to create more space between the paragraph and the next line, try doing that by setting a margin in the CSS -->		
 		</div>
 
 		<div id="signup">
+			<!-- Strings of class names like this is where the class strategy could get a bit unwieldy.  You can also style your elements by adding 1 class - for example <a class="signUpButton"> - and putting all of the styles for this button under that one class.  There is nothing wrong with this strategy from a "does it work" perspective.  Like I said in class, there are a lot of ways to code something that will work.  It is more a matter of coding style, personal preferences, and maintainablilty later on. -->
 			<a href="#" class="bluebutton whitefont 12font extrabold">Sign Up Now!</a>
 		</div>
 
+		<!-- Great use of the footer tag here! -->
 		<footer>
 			<div>
 				<p class="yellowfont extrabold _24font">Relaxr</p>
@@ -54,6 +70,7 @@
 
 			<div>
 				<ul class="nobullets">
+					<!-- Make sure each tag goes on its own (indented) line.  It will make reading your code easier that way. -->
 					<li><a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png"></a></li>
 					<li class="floatright"><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"></a></li>
 				</ul>	

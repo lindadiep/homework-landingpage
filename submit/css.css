@@ -1,21 +1,30 @@
+/* From Joni: Overall comments
+ * 
+ * Hi Linda!  I will be adding comments to your code in CSS comments like this one.
+ *
+ * The indenting is great here for the most part - just make sure you stay consistent, but overall
+ * this file is super easy to read and follow.
+ */
+
 		header {
 			background-image:url("images/header_bg.jpg");
 			background-repeat:no-repeat;
-    			background-size:cover;
+    			background-size:cover; /* nice use of cover here! */
 			font-size:24px;
 			color:white;
 			padding-bottom:25%;
 		}
 
+		/* I love that you are experimenting with floats for this homework. */
 		#benefits {
-			float:left;
+			float:left; /* You do not need to float this element - since it is 100% wide, nothing can float next to it anyway */
 			width:100%;
 			color:#606161;
 			background-color:#f0efef;
 		}	
 	
 		#benefits1 {
-			float:left;
+			float:left; /* Nice use of float here. */
 			width:50%;
 			background-color:#f0efef;
 			text-align:left;
@@ -28,7 +37,11 @@
 		} 
 
 		ul {
-			padding:10px 20px 10px 20px;
+			/* 
+			Just a note since you may see this in the wild.  You can also reduce this line below to a
+			shorter version  - padding: 10px 20px; - which will do the same thing.  Either way is fine.
+			*/
+			padding:10px 20px 10px 20px; 
 			list-style-type:disc;
 			list-style-position:inside;
 		}
@@ -38,11 +51,11 @@
 		}
 
 		ul.nobullets {
-			list-style-position: none;
+			list-style-position: none; /* Nice override of the list style property here */
 		}
 
 		#benefits2 {
-			float:left;
+			float:left; /* Nice use of float here. */
 			width:50%;
 			background-color:#f0efef;
 			text-align:center;
@@ -66,7 +79,7 @@
 			background-image:url("images/testimonial_bg.jpg");
 			background-repeat:no-repeat;
     			background-size:cover;
-			clear:both;
+			clear:both; /* great use of clear here */
 			padding: 5% 30%;
 		}
 
@@ -112,7 +125,7 @@
 		a {
 			font-size:14px;
 			text-decoration:none;
-			border-radius:5px;
+			border-radius:5px; /* I don't think I went over this property in class.  Great find! */
 			padding:5px 30px;
 		}
 
