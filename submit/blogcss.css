@@ -1,5 +1,5 @@
 
-		#columns {
+		#main-section {
 			float:left;
 			width:100%;
 			color: #606161;
@@ -11,7 +11,7 @@
 			padding: 20px;
 		}
 
-		#main {
+		#blog-posts {
 			float:left;
 			width:50%;
 			background-color:#f0efef;
@@ -20,7 +20,7 @@
 			font-weight: 300;	
 		}
 
-		#main p {
+		#blog-posts p {
 			padding:10px;
 		} 
 
@@ -37,7 +37,7 @@
 
 		#nav ul ul {
 			float: right;
-			color:#f9e4e2;
+			color:yellow;
 		}
 		
 		#nav li {
@@ -210,6 +210,6 @@
 		body {
      			font-size: 12px;     			
      			font-family: 'Open Sans', sans-serif; 
-     			text-align:left;
+     			text-align:center;
       			
 		}
