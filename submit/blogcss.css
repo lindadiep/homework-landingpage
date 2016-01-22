@@ -54,9 +54,9 @@
 		section {
 			background-color: #f0efef;
 			color: #606161;
-			float:left; <!-- In my previous homework, Joni mentioned that there's no need to float:left a float that has a width 
-			that equals 100% however when I didn't make it float left, it was creating white spaces. In other words, 
-			the background was doing weird things. To prevent this, I gave a position for every float. -->
+			float:left; /* In my previous homework, Joni mentioned that there's no need to float:left a float that has a width 
+			that equals 100% however when I did not make it float left, it was creating white spaces. In other words, 
+			the background was doing weird things. To prevent this, I gave a position for every float.*/
 		
 			width: 100%;
 		}
@@ -94,10 +94,6 @@
 			font-family: "Times New Roman", Times, Serif; 
 		}
 
-		#blog-posts p .read-less {
-			font-size: 24px;
-			cursor: pointer;
-		}
 
 		#blog-posts a {
 			font-size: 24px;
@@ -132,6 +128,7 @@
 			margin-bottom: 20px;
 			text-align: right;
 			width: 100%;
+			cursor: pointer;
 		}
 
 		.read-less {
@@ -139,7 +136,14 @@
 			margin-bottom: 20px;
 			text-align: right;
 			width: 100%;
+			cursor: pointer;
+			font-size: 24px;
 		}
+
+		.expand-blog, .read-less {
+			display: none;
+		}
+
 		#sidebar {
 			background-color: #f0efef;
 			float: left;
