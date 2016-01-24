@@ -54,10 +54,9 @@
 		section {
 			background-color: #f0efef;
 			color: #606161;
-			float:left; /* In my previous homework, Joni mentioned that there's no need to float:left a float that has a width 
-			that equals 100% however when I did not make it float left, it was creating white spaces. In other words, 
+			float:left; /* In my previous homework, Joni mentioned that there's no need to float:left a float that has a width
+			that equals 100% however when I did not make it float left, it was creating white spaces. In other words,
 			the background was doing weird things. To prevent this, I gave a position for every float.*/
-		
 			width: 100%;
 		}
 
@@ -85,13 +84,13 @@
 			padding: 10px 10px 0px 0px;
 		}
 
-		#blog-posts p span { 
-			float: left; 
-			color: #033048; 
-			font-size: 75px; 
-			line-height: 60px; 
-			padding: 4px 8px 0px 3px; 
-			font-family: "Times New Roman", Times, Serif; 
+		#blog-posts p span {
+			float: left;
+			color: #033048;
+			font-size: 75px;
+			line-height: 60px;
+			padding: 4px 8px 0px 3px;
+			font-family: "Times New Roman", Times, Serif;
 		}
 
 
@@ -106,7 +105,7 @@
 		#blog-posts a:link {
     			color: #033048;
 		}
-		
+
 		#blog-posts a:visited {
     			color: #033048;
 		}
@@ -114,7 +113,7 @@
 		#blog-posts a:hover {
     			color: green;
 		}
-		
+
 		#blog-posts a:active {
     			color: green;
 		}
@@ -169,7 +168,7 @@
 		#sidebar a:link {
     			color: #033048;
 		}
-		
+
 		#sidebar a:visited {
     			color: #033048;
 		}
@@ -222,8 +221,8 @@
 		}
 
 		footer h5 {
-			color:#f9e42e; 
-    			font-weight:800; 
+			color:#f9e42e;
+    			font-weight:800;
     			font-size:24px;
     			padding: 30px;
     			width: 10%;
@@ -289,4 +288,3 @@
 			font-size:14px;
 			text-decoration:none;
 		}
-
