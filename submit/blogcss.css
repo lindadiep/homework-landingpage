@@ -84,6 +84,11 @@
 			padding: 10px 10px 0px 0px;
 		}
 
+		#blog-posts p .read-more {
+/* font-weight on this isn't applying gaahhh */
+
+		}
+
 		#blog-posts p span {
 			float: left;
 			color: #033048;
@@ -93,14 +98,6 @@
 			font-family: "Times New Roman", Times, Serif;
 		}
 
-
-		#blog-posts a {
-			font-size: 24px;
-			font-weight: 600;
-			margin-top: 10px;
-			padding-left: 100px;
-			text-align: right;
-		}
 
 		#blog-posts a:link {
     			color: #033048;
@@ -128,6 +125,12 @@
 			text-align: right;
 			width: 100%;
 			cursor: pointer;
+/* font-weight not applying here either! */
+			font-size: 24px;
+			font-weight: 600;
+			margin-top: 10px;
+			padding-left: 100px;
+			text-align: right;
 		}
 
 		.read-less {
@@ -139,7 +142,7 @@
 			font-size: 24px;
 		}
 
-		.expand-blog, .read-less {
+		.expand-firstpost, .read-less {
 			display: none;
 		}
 
@@ -166,19 +169,19 @@
 		}
 
 		#sidebar a:link {
-    			color: #033048;
+    	color: #033048;
 		}
 
 		#sidebar a:visited {
-    			color: #033048;
+    	color: #033048;
 		}
 
 		#sidebar a:hover {
-    			color: green;
+    	color: green;
 		}
 
 		#sidebar a:active {
-    			color: green;
+    	color: green;
 		}
 
 		#sidebar ul li {
@@ -192,9 +195,14 @@
 			padding: 0;
 		}
 
-		#sidebar p a {
+		#sidebar p span {
 			font-size: 22px;
 			font-weight: 600;
+			cursor: pointer;
+		}
+
+		.learn-more {
+			display: none;
 		}
 
 		#sidebar img {
@@ -216,17 +224,17 @@
 
 		footer div p {
 			width: 10%;
-    			margin: 0 auto;
-    			padding: 30px;
+    	margin: 0 auto;
+    	padding: 30px;
 		}
 
 		footer h5 {
 			color:#f9e42e;
-    			font-weight:800;
-    			font-size:24px;
-    			padding: 30px;
-    			width: 10%;
-    			margin: 0% auto;
+    	font-weight:800;
+    	font-size:24px;
+    	padding: 30px;
+    	width: 10%;
+    	margin: 0% auto;
 		}
 
 		footer h6 {
@@ -270,7 +278,7 @@
 			padding:5px 30px;
 			color: white;
 			font-size: 12px;
-			font-weight: 800; 
+			font-weight: 800;
 		}
 
 		.floatright {
