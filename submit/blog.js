@@ -1,4 +1,4 @@
-$(document).ready( function(collapseBlogPost) {
+$(document).ready( function(collapseBlogPost, collapseLearnMore) {
 
 	function collapseBlogPost() {
 		$('.expand-firstpost').slideUp();
@@ -7,7 +7,6 @@ $(document).ready( function(collapseBlogPost) {
 	}
 
 	$('.read-more').click(expandBlogPost);
-
 	function expandBlogPost() {
 		$('.expand-firstpost').slideDown();
 		$('.read-less').show();
@@ -16,9 +15,15 @@ $(document).ready( function(collapseBlogPost) {
 
 	$('.read-less').click(collapseBlogPost);
 
-	$
 	function collapseLearnMore() {
-		$('.learn-more').
+		$('.learn-more-blurb').slideUp();
 	}
+
+	$('.learn-more-button').click(showLearnMore);
+	function showLearnMore() {
+		$('.learn-more-blurb').slideToggle();
+
+	}
+
 
 });
